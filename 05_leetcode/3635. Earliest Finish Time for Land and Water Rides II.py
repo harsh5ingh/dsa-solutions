@@ -17,3 +17,5 @@ class Solution:
             minW = min(minW, max(la[i], w) + lb[i])
 
         return min(minW, minL)
+    
+print("Solution:    ", Solution)

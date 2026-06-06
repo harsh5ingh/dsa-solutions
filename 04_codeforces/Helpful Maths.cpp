@@ -15,7 +15,7 @@ int main()
         {
             cout << s[i];
 
-            // check if any number still remains ahead
+            // check if any number still remains aheads
             for (int j = i + 1; j < s.length(); j++)
             {
                 if (s[j] != '+')
